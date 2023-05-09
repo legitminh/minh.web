@@ -1,7 +1,8 @@
+import Tree from "./tree"
 export default function Home() {
     return(
         <>
-        Hello
+        <Tree children={Array(String("Hello"))}/>
         </>
     )
 }
